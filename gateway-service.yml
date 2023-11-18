@@ -15,7 +15,7 @@ spring:
           predicates:
             - Path= /bills/**
       globalcors:
-        corsConfigurations:
+        cors-configurations:
           '[/**]':
             allowedOrigins: "http://localhost/4200"
             allowedHeaders: "*"
